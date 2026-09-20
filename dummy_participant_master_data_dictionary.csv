@@ -1,0 +1,11 @@
+column_name          , description                                                                   , data_type                                 , example_value
+ParticipantIdentifier, Synthetic readable participant key used across the dummy exports.             , string                                    , P0001
+ParticipantID        , Synthetic UUID-style participant key used in MDH-style export tables.         , string                                    , 217411dc-1a1c-4ef4-a347-b4a7ccfba050
+Enrollment_Date      , Synthetic consent/enrollment date derived from the first 24-hour notification., date (YYYY-MM-DD)                         , 2025-02-16
+Final_Study_Status   , Synthetic participant-level study outcome.                                    , categorical (Active/Completed/Dropped Out), Completed
+Dropout_Date         , Synthetic dropout date; blank unless Final_Study_Status is Dropped Out.       , date (YYYY-MM-DD) or NULL                 , 2025-08-14
+Dropout_Reason       , Synthetic clinical-team dropout reason; blank unless participant dropped out. , categorical or NULL                       , Lost to follow-up
+Age                  , Synthetic baseline age in years.                                              , integer                                   , 42
+Education_Level      , Synthetic baseline education category.                                        , categorical                               , Some college
+Employment_Status    , Synthetic baseline employment category.                                       , categorical                               , Employed full-time
+Gender_Sex           , Synthetic baseline gender/sex category.                                       , categorical                               , Female
