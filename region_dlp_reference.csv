@@ -1,0 +1,7 @@
+region,base_ctdi_vol_mGy,base_scan_length_cm,base_dlp_mGy_cm,base_k_factor,calculation_formula,note
+Head,60,15,900,0.0021,"DLP = 60 mGy × 15 cm = 900 mGy·cm","For 70 kg reference patient; CTDIvol scales with weight"
+Chest,15,35,525,0.014,"DLP = 15 mGy × 35 cm = 525 mGy·cm","For 70 kg reference patient; CTDIvol scales with weight"
+Abdomen,20,30,600,0.015,"DLP = 20 mGy × 30 cm = 600 mGy·cm","For 70 kg reference patient; CTDIvol scales with weight"
+Pelvis,22,30,660,0.019,"DLP = 22 mGy × 30 cm = 660 mGy·cm","For 70 kg reference patient; CTDIvol scales with weight"
+Thorax,15,35,525,0.014,"DLP = 15 mGy × 35 cm = 525 mGy·cm","For 70 kg reference patient; CTDIvol scales with weight"
+Lumbar Spine,20,30,600,0.015,"DLP = 20 mGy × 30 cm = 600 mGy·cm","For 70 kg reference patient; CTDIvol scales with weight"
